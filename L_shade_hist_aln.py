@@ -26,7 +26,6 @@ from Bio import AlignIO
 from Bio.Align.Applications import MuscleCommandline
 import subprocess
 
-import networkx as nx
 from StringIO import StringIO
 
 from hist_ss import get_hist_ss
