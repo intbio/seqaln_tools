@@ -30,7 +30,6 @@ from Bio import AlignIO
 from Bio.Align.Applications import MuscleCommandline
 import subprocess
 
-import networkx as nx
 from StringIO import StringIO
 from Bio.Blast.Applications import NcbiblastpCommandline
 #from pylab import *
