@@ -12,6 +12,11 @@ Dig here if you want to know how:
 ## Installation and configuration
 Currently manual library installation is needed.
 PATH and EMAIL should be configured in CONFIG.py
+Some external binary dependencies can be installed via conda:
+```
+conda install muscle
+conda install emboss
+```
 
 ## L_aln2html.py
 This library outputs MSA to HTML and allows some annotation.
