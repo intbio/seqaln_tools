@@ -41,8 +41,8 @@ from hist_ss import get_hist_ss_in_aln, get_hist_ss_in_aln_for_shade
 from Bio.Align.AlignInfo import SummaryInfo
 import L_aln_tools
 
-
-TEMP_DIR='/Users/alexeyshaytan/junk/temptemp'
+import CONFIG
+TEMP_DIR=CONFIG.TEMP_DIR
 
 def seqfeat2shadefeat(msa,seqref=None,idseqref=True):
     """

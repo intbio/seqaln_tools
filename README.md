@@ -17,6 +17,15 @@ Some external binary dependencies can be installed via conda:
 conda install muscle
 conda install emboss
 ```
+LaTeX with TeXShade package should be installed https://www.latex-project.org/get/
+
+The easiest way seem to install the basic TeX distro
+http://www.tug.org/mactex/morepackages.html
+and then add TeXShade via
+```
+sudo tlmgr update --self
+sudo tlmgr install texshade
+```
 
 ## L_aln2html.py
 This library outputs MSA to HTML and allows some annotation.
@@ -51,6 +60,8 @@ Deprecated
 ## L_shade_aln.py
 This is a library that makes good images of shaded alignments 
 through TeXShade.
+Latex with TexShade module has to be installed.
+https://www.latex-project.org/get/
 
 ## L_shade_hist_aln.py
 Visualizing histone MSAs via TEXSHADE.
