@@ -43,7 +43,6 @@ import subprocess
 
 #from ete2 import NCBITaxa
 # import pylab
-import networkx as nx
 from StringIO import StringIO
 import L_shade_hist_aln
 from Bio.Align.AlignInfo import SummaryInfo
