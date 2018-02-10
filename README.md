@@ -10,14 +10,15 @@ Dig here if you want to know how:
 - Find and display secondary structure elements in sequences.
 
 ## Installation and configuration
-Currently manual library installation is needed.
-PATH and EMAIL should be configured in CONFIG.py
-Some external binary dependencies can be installed via conda:
+Currently manual Python library installation is needed.   
+PATH and EMAIL should be configured in CONFIG.py    
+Binary packages should be installed if needed, as detailed below:
+- Some external binary dependencies can be installed via conda:
 ```
 conda install muscle
 conda install emboss
 ```
-LaTeX with TeXShade package should be installed https://www.latex-project.org/get/
+- LaTeX with TeXShade package should be installed https://www.latex-project.org/get/
 
 The easiest way seem to install the basic TeX distro
 http://www.tug.org/mactex/morepackages.html
@@ -27,7 +28,16 @@ sudo tlmgr update --self
 sudo tlmgr install texshade
 ```
 
-ImageMagic has to be installed - the convert command at least.
+- ImageMagic has to be installed - the `convert` command at least should be available systemwide.
+The Ghostscript should be installed - the `gs` command at least should be available systemwide.
+
+Via brew:
+```
+brew install im
+brew install gs
+```
+
+- AL2CO should be installed manually if needed.
 
 ## L_aln2html.py
 This library outputs MSA to HTML and allows some annotation.
