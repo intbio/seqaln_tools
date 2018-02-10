@@ -15,8 +15,8 @@ Functions: aln2html
 Python dependencies: biopython
 
 ## L_aln_tools.py
-This is a complex and powerful library to retrieve sequences from NCBI and build, edit, analyze and display MSAs.
-Function: get_prot_seq_by_gis, get_prot_seqrec_by_gis, get_prot_gbrec_by_gis, aln_undup, cons_prof, trim_aln_gaps, trim_aln_to_key_seq, trim_aln_to_seq, trim_aln_to_seq_length, muscle_aln, add_consensus, cluster_seq_support_nw, cluster_seq_support, taxo_msa, gen_fake_msa, features_via_hmm, taxo_seq_architecture, debump_features   
+This is a complex and powerful library to retrieve sequences from NCBI and build, edit, analyze and display MSAs.   
+Functions: get_prot_seq_by_gis, get_prot_seqrec_by_gis, get_prot_gbrec_by_gis, aln_undup, cons_prof, trim_aln_gaps, trim_aln_to_key_seq, trim_aln_to_seq, trim_aln_to_seq_length, muscle_aln, add_consensus, cluster_seq_support_nw, cluster_seq_support, taxo_msa, gen_fake_msa, features_via_hmm, taxo_seq_architecture, debump_features   
 Python dependencies: biopython, networkx, PyQT, modified ete2 https://github.com/molsim/ete/tree/2.3
 External programs: AL2CO, Muscle, EMBOSS
 Installation: TBA
