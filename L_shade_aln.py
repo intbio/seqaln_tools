@@ -79,10 +79,15 @@ def shade_aln2png(msa,filename='default',shading_modes=['similar'],features=[],t
         m=margins
     else:
         m=0
+    print("Converting PDF to PNG")
     if rotate:
-        os.system('convert -density %d '%density+intf+' -trim -bordercolor White -border %.3f%%x0%% -rotate -90 %s'%(m,filename if filename[-3:]=='png' else filename+'.png'))
+        cmd='convert -density %d '%density+intf+' -trim -bordercolor White -border %.3f%%x0%% -rotate -90 %s'%(m,filename if filename[-3:]=='png' else filename+'.png')
+        print(cmd)
+        os.system(cmd)
     else:
-        os.system('convert -density %d '%density+intf+' -trim -bordercolor White -border %.3f%%x0%% %s'%(m,filename if filename[-3:]=='png' else filename+'.png'))
+        cmd='convert -density %d '%density+intf+' -trim -bordercolor White -border %.3f%%x0%% %s'%(m,filename if filename[-3:]=='png' else filename+'.png')
+        print(cmd)
+        os.system(cmd)
 
 
 def shade_aln2pdf(msa,filename='default',shading_modes=['similar'],features=[],title='',legend=True, logo=False,hideseqs=False,splitN=20,setends=[],ruler=False,show_seq_names=True,show_seq_length=True,funcgroups=None,threshold=[80,50],resperline=0):

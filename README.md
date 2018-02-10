@@ -27,6 +27,8 @@ sudo tlmgr update --self
 sudo tlmgr install texshade
 ```
 
+ImageMagic has to be installed - the convert command at least.
+
 ## L_aln2html.py
 This library outputs MSA to HTML and allows some annotation.
 Functions: aln2html
