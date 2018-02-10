@@ -9,6 +9,10 @@ Dig here if you want to know how:
 - Make dataplots on top of seqeunces or sequence alignments.
 - Find and display secondary structure elements in sequences.
 
+## Installation and configuration
+Currently manual library installation is needed.
+PATH and EMAIL should be configured in CONFIG.py
+
 ## L_aln2html.py
 This library outputs MSA to HTML and allows some annotation.
 Functions: aln2html

@@ -56,14 +56,14 @@ from Bio import pairwise2
 from Bio.SubsMat import MatrixInfo as matlist
 
 
+import CONFIG
+Entrez.email = CONFIG.EMAIL
 
-Entrez.email = "alexey.shaytan@nih.gov" 
+TEMP_DIR=CONFIG.TEMP_DIR
+MUSCLE_BIN=CONFIG.MUSCLE_BIN
+BLOSSUM_PATH=CONFIG.BLOSSUM_PATH
 
-TEMP_DIR=os.path.expanduser('~/junk/temptemp')
-MUSCLE_BIN=os.path.expanduser('~/soft/bins/muscle')
-BLOSSUM_PATH=os.path.expanduser('~/soft/al2co/BLOSUM62.txt')
-
-PATH_TO_AL2CO=os.path.expanduser('~/soft/al2co')
+PATH_TO_AL2CO=CONFIG.PATH_TO_AL2CO
 os.environ['PATH']='/Users/alexeyshaytan/soft/hmmer3.0/bin:/Users/alexeyshaytan/soft/al2co:/Users/alexeyshaytan/soft/x3dna-v2.1/bin:/Users/alexeyshaytan/soft/amber12/bin:/Users/alexeyshaytan/soft/sratoolkit/bin:/Users/alexeyshaytan/soft/bins/gromacs-4.6.3/bin:/opt/local/bin:/opt/local/sbin:/Users/alexeyshaytan/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/ncbi/blast/bin:/usr/texbin'+os.path.sep+os.environ['PATH']
 
 
