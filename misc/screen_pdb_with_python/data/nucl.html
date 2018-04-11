@@ -1,0 +1,414 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html lang="en">
+<head>
+<link media="all" href="layout.css" type="text/css" rel="stylesheet" />
+<link media="all" href="alt.css" type="text/css" rel="stylesheet" />
+<link media="all" href="images.css" type="text/css" rel="stylesheet" />
+<title>PDBids from nucl.db</title>
+</head>
+<body>
+PDBids from nucl.db<script type="text/javascript" src="https://dl.dropboxusercontent.com/u/201202/js/tooltip.js"></script>
+    <script type="text/javascript" src="https://dl.dropboxusercontent.com/u/201202/js/ajax.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css" />
+    <script>
+    $(function() {
+    $( document ).tooltip();
+    });
+    </script>
+    <style>
+    label {
+    display: inline-block;
+    width: 5em;
+    }
+    </style>
+<p><h1> Filtered database of nucleosomes and octamers from initial nucleosome database, includes multinucleosomes </h1></p>
+<p><h1> Database analysis:</h1></p>
+<br />
+<p><h2>History of how the database was created </h2></p>
+<p>2013-06-26 16:31 | init_nucl_struct.db | 
+Protocol:
+1) MMDB search for *nuleosome*,
+2) SIFTS uniprot refs obtained for all chains
+3) Entries left where at least one chain had uniprot descr *histone* 
+</p>
+<p>2013-07-01 12:02 | nucl.db | 
+Protocol:
+1) Select PDBs with no less than 8 protein chains in assymetric unit
+2) Manual review: get rid of 4DRA 4FIP 2X4X 3C9K (tubular crystall) 4FJC 3F9X 3F9Z 2YFW 2XQL 4DRB 4E45 2X4Y 3U5P 3U5O 2Z3F 3F9W
+</p>
+<br />
+<p><h2>Now comes the analysis</h2></p>
+<p>********************General*******************<br>###There are 83 unique pdb strucutres <br>###There are 39 unique protein ids<br>###There are 8 unique taxonomic organisms present <br>###Total protein chains in set 698</p>
+<br />
+<p>********************Oligomeric state distribution*******************</p>
+<p>###Olig state : Num PDBIDs : PDBIDs </p>
+<p>### 8 : 77</p>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1KX4" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1KX4_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-Ray Structure Of The Nucleosome Core Particle, Ncp146b, At 2.6 A Resolution">1KX4</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1KX5" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1KX5_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-ray Structure Of The Nucleosome Core Particle, Ncp147, At 1.9 A Resolution">1KX5</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1AOI" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1AOI_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Complex Between Nucleosome Core Particle (H3,H4,H2a,H2b) And 146 Bp Long Dna Fragment">1AOI</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1KX3" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1KX3_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-Ray Structure Of The Nucleosome Core Particle, Ncp146, At 2.0 A Resolution">1KX3</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3KXB" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3KXB_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Structural Characterization Of H3k56q Nucleosomes And Nucleosomal Arrays">3KXB</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2NQB" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2NQB_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Drosophila Nucleosome Structure">2NQB</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3UTA" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3UTA_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Assembled With An Alpha- Satellite Sequence Containing Two Ttaaa Elements (Ncp-Ta2)">3UTA</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3UTB" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3UTB_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Assembled With The 146b Alpha-Satellite Sequence (Ncp146b)">3UTB</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3LZ1" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3LZ1_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Composed Of The Widom 601 Dna Sequence (Orientation 2)">3LZ1</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3LZ0" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3LZ0_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Composed Of The Widom 601 Dna Sequence (Orientation 1)">3LZ0</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MNN" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MNN_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="A Ruthenium Antitumour Agent Forms Specific Histone Protein Adducts In The Nucleosome Core">3MNN</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3LJA" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3LJA_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Using Soft X-Rays For A Detailed Picture Of Divalent Metal Binding In The Nucleosome">3LJA</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AYW" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AYW_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H3k56q Mutation">3AYW</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3K" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3K_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3K</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3REJ" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3REJ_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.55 Angstrom Crystal Structure Of The Nucleosome Core Particle Assembled With A 146 Bp Alpha-Satellite Dna (Ncp146b)">3REJ</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3I" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3I_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3I</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AN2" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AN2_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Structure Of The Centromeric Nucleosome Containing Cenp-A">3AN2</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3O" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3O_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3O</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1EQZ" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1EQZ_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-Ray Structure Of The Nucleosome Core Particle At 2.5 A Resolution">1EQZ</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3B" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3B_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3B</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1ID3" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1ID3_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Yeast Nucleosome Core Particle Reveals Fundamental Differences In Inter-Nucleosome Interactions">1ID3</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2PYO" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2PYO_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Drosophila Nucleosome Core">2PYO</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3A" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3A_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3A</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3F" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3F_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3F</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3G" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3G_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3G</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2FJ7" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2FJ7_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Containing A Poly (Da.Dt) Sequence Element">2FJ7</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3A6N" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3A6N_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Nucleosome Containing A Testis-Specific Histone Variant, Human H3t">3A6N</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2F8N" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2F8N_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.9 Angstrom X-Ray Structure Of Hybrid Macroh2a Nucleosomes">2F8N</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3KUY" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3KUY_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Dna Stretching In The Nucleosome Facilitates Alkylation By An Intercalating Antitumor Agent">3KUY</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2NZD" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2NZD_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Nucleosome Core Particle Containing 145 Bp Of Dna">2NZD</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AV1" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AV1_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Human Nucleosome Structure Containing The Histone Variant H3.2">3AV1</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3P" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3P_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3P</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1S32" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1S32_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Molecular Recognition Of The Nucleosomal &quot;supergroove&quot;">1S32</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1M19" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1M19_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Ligand Binding Alters The Structure And Dynamics Of Nucleosomal Dna">1M19</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1M18" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1M18_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Ligand Binding Alters The Structure And Dynamics Of Nucleosomal Dna">1M18</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1TZY" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1TZY_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Core-Histone Octamer To 1.90 Angstrom Resolution">1TZY</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1ZLA" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1ZLA_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-Ray Structure Of A Kaposi&quot;s Sarcoma Herpesvirus Lana Peptide Bound To The Nucleosomal Core">1ZLA</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3REH" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3REH_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.5 Angstrom Crystal Structure Of The Nucleosome Core Particle Assembled With A 145 Bp Alpha-Satellite Dna (Ncp145)">3REH</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1M1A" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1M1A_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Ligand Binding Alters The Structure And Dynamics Of Nucleosomal Dna">1M1A</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3KWQ" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3KWQ_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Structural Characterization Of H3k56q Nucleosomes And Nucleo Arrays">3KWQ</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3REI" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3REI_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.65 Angstrom Crystal Structure Of The Nucleosome Core Particle Assembled With A 145 Bp Alpha-Satellite Dna (Ncp145) Derivatized With Triamminechloroplatinum(Ii) Chloride">3REI</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MGS" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MGS_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Binding Of Cesium Ions To The Nucleosome Core Particle">3MGS</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2CV5" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2CV5_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle">2CV5</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZE" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZE_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H3k64q Mutation">3AZE</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=2ARO" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/2ARO_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Native Histone Octamer To 2.1 Angstrom Resolution, Crystalised In The Presence Of S-nitrosoglutathione">2ARO</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1HQ3" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1HQ3_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Histone-Core-Octamer In KclPHOSPHATE">1HQ3</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4J8U" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4J8U_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-ray Structure Of Ncp145 With Chlorido(eta-6-p-cymene)(n-phenyl-2- Pyridinecarbothioamide)osmium(ii)">4J8U</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1U35" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1U35_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Nucleosome Core Particle Containing The Histone Domain Of Macroh2a">1U35</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3REK" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3REK_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.6 Angstrom Crystal Structure Of The Nucleosome Core Particle Assembled With A 146 Bp Alpha-Satellite Dna (Ncp146b) Derivatized With Oxaliplatin">3REK</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3REL" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3REL_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.7 Angstrom Crystal Structure Of The Nucleosome Core Particle Assembled With A 146 Bp Alpha-Satellite Dna (Ncp146b) Derivatized With Triamminechloroplatinum(Ii) Chloride">3REL</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZH" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZH_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H3k122q Mutation">3AZH</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P34" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P34_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P34</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MGP" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MGP_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Binding Of Cobalt Ions To The Nucleosome Core Particle">3MGP</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4J8W" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4J8W_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-ray Structure Of Ncp145 With Chlorido(eta-6-p-cymene)(n- Fluorophenyl-2-pyridinecarbothioamide)osmium(ii)">4J8W</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZI" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZI_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k31q Mutation">3AZI</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MGQ" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MGQ_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Binding Of Nickel Ions To The Nucleosome Core Particle">3MGQ</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3L" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3L_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3L</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MGR" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MGR_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Binding Of Rubidium Ions To The Nucleosome Core Particle">3MGR</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4J8V" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4J8V_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-ray Structure Of Ncp145 With Bound Chlorido(eta-6-p-cymene)(n- Phenyl-2-pyridinecarbothioamide)ruthenium(ii)">4J8V</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3O62" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3O62_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Nucleosome Core Particle Modified With A Cisplatin 1,3-Cis-{pt(Nh3) 2}2+-D(Gptpg) Intrastrand Cross-Link">3O62</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1P3M" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1P3M_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystallographic Studies Of Nucleosome Core Particles Containing Histone &quot;sin&quot; Mutants">1P3M</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AV2" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AV2_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Human Nucleosome Structure Containing The Histone Variant H3.3">3AV2</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3UT9" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3UT9_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Nucleosome Core Particle Assembled With A Palindromic Widom &quot;601&quot; Derivative (Ncp-601l)">3UT9</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AFA" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AFA_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Human Nucleosome Structure">3AFA</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZG" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZG_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H3k115q Mutation">3AZG</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4J8X" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4J8X_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="X-ray Structure Of Ncp145 With Bound Chlorido(eta-6-p-cymene)(n- Fluorophenyl-2-pyridinecarbothioamide)ruthenium(ii)">4J8X</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZF" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZF_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H3k79q Mutation">3AZF</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZL" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZL_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k77q Mutation">3AZL</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3B6G" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3B6G_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Nucleosome Core Particle Treated With Oxaliplatin">3B6G</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3B6F" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3B6F_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Nucleosome Core Particle Treated With Cisplatin">3B6F</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZJ" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZJ_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k44q Mutation">3AZJ</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZK" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZK_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k59q Mutation">3AZK</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3C1C" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3C1C_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Effect Of H3 K79 Dimethylation And H4 K20 Trimethylation On Nucleosome And Chromatin Structure">3C1C</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3C1B" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3C1B_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="The Effect Of H3 K79 Dimethylation And H4 K20 Trimethylation On Nucleosome And Chromatin Structure">3C1B</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZN" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZN_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k91q Mutation">3AZN</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1F66" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1F66_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="2.6 A Crystal Structure Of A Nucleosome Core Particle Containing The Variant Histone H2a.Z">1F66</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3AZM" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3AZM_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Human Nucleosome Core Particle Containing H4k79q Mutation">3AZM</a>
+<p>### 10 : 3</p>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4JJN" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4JJN_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Heterochromatin Protein Sir3 In Complex With A Silenced Yeast Nucleosome">4JJN</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3TU4" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3TU4_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Sir3 Bah Domain In Complex With A Nucleosome Core Particle">3TU4</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3MVD" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3MVD_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of The Chromatin Factor Rcc1 In Complex With The Nucleosome Core Particle">3MVD</a>
+<p>### 16 : 2</p>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=1ZBB" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/1ZBB_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Structure Of The 4_601_167 Tetranucleosome">1ZBB</a>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=3LEL" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/3LEL_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Structural Insight Into The Sequence-Dependence Of Nucleosom Positioning">3LEL</a>
+<p>### 20 : 1</p>
+<a class="internal" href="http://www.rcsb.org/pdb/explore.do?structureId=4INM" onmouseover="showtrail(1,1,&quot;http://www.rcsb.org/pdb/images/4INM_asym_r_500.jpg&quot;);" onmouseout="hidetrail();" title="Crystal Structure Of Cenp-c In Complex With The Nucleosome Core Particle">4INM</a>
+<br />
+<p>*****************Organismic&nbsp;distribution**************************<br>###&nbsp;Num&nbsp;PDBs&nbsp;with&nbsp;at&nbsp;least&nbsp;one&nbsp;protein&nbsp;from&nbsp;organism&nbsp;|&nbsp;Organism&nbsp;name<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;219&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xenopus&nbsp;laevis&nbsp;(African&nbsp;clawed&nbsp;frog).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;71&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Homo&nbsp;sapiens&nbsp;(Human).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gallus&nbsp;gallus&nbsp;(Chicken).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Drosophila&nbsp;melanogaster&nbsp;(Fruit&nbsp;fly).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saccharomyces&nbsp;cerevisiae&nbsp;(strain&nbsp;ATCC&nbsp;204508&nbsp;/&nbsp;S288c)&nbsp;(Baker's&nbsp;yeast).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mus&nbsp;musculus&nbsp;(Mouse).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Xenopus&nbsp;tropicalis&nbsp;(Western&nbsp;clawed&nbsp;frog)&nbsp;(Silurana&nbsp;tropicalis).<br>###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rattus&nbsp;norvegicus&nbsp;(Rat).<br></p>
+<br />
+<p>*****************Protein distribution**************************<br>### UniProtID | Num PDBs in database having it | Descr<br></p>
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P62799">  P62799</a>
+&nbsp;&nbsp;
+<a href="#" title="1KX5 1KX4 1KX3 3LZ1 3LZ0 3LJA 3TU4 3UTB 3UTA 3UT9 3O62 3MVD 3LEL 3KUY 2NZD 1P3P 1P3O 1P3M 1P3L 1P3K 1P3I 1P3G 1P3F 1P3B 1P3A 1P34 3MGS 3MGR 3MGQ 3MGP 3B6G 3B6F 3KWQ 3KXB 1AOI 1M1A 1M19 1M18 2FJ7 3C1C 3C1B 1S32 3MNN 1ZBB 3REL 3REK 3REJ 3REI 3REH 1ZLA 4J8X 4J8V 4J8U 2F8N 4J8W ">&nbsp;&nbsp;   55&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02281">  P02281</a>
+&nbsp;&nbsp;
+<a href="#" title="1KX5 1KX4 1KX3 3LZ1 3LZ0 3LJA 3TU4 3UTB 3UTA 3UT9 3O62 3MVD 3LEL 3KUY 2NZD 1P3P 1P3O 1P3M 1P3L 1P3K 1P3I 1P3G 1P3F 1P3B 1P3A 1P34 3MGS 3MGR 3MGQ 3MGP 3B6G 3B6F 3KWQ 3KXB 1AOI 1M1A 1M19 1M18 2FJ7 1F66 1S32 3MNN 1ZBB 3REL 3REK 3REJ 3REI 3REH 1ZLA 4J8X 4J8V 4J8U 2F8N 4J8W ">&nbsp;&nbsp;   54&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B 1.1; Short=H2B1.1;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P84233">  P84233</a>
+&nbsp;&nbsp;
+<a href="#" title="1KX5 1KX4 1KX3 3LZ1 3LZ0 3LJA 3TU4 3UTB 3UTA 3UT9 3O62 3MVD 3LEL 3KUY 2NZD 1P3P 1P3O 1P3M 1P3L 1P3K 1P3I 1P3G 1P3F 1P3B 1P3A 1P34 3MGS 3MGR 3MGQ 3MGP 3B6G 3B6F 3KWQ 3KXB 2FJ7 1F66 3C1C 3C1B 1S32 3MNN 1ZBB 3REL 3REK 3REJ 3REI 3REH 1ZLA 4J8X 4J8V 4J8U 2F8N 4J8W ">&nbsp;&nbsp;   52&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.2;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P06897">  P06897</a>
+&nbsp;&nbsp;
+<a href="#" title="1KX5 1KX4 1KX3 3LJA 3TU4 3UTB 3UTA 3UT9 3O62 3KUY 2NZD 1P3P 1P3O 1P3M 1P3L 1P3K 1P3I 1P3G 1P3F 1P3B 1P3A 1P34 3B6G 3B6F 3KWQ 1AOI 1M1A 1M19 1M18 2FJ7 3C1C 3C1B 1S32 3MNN 1ZBB 3REL 3REK 3REJ 3REI 3REH 1ZLA 4J8X 4J8V 4J8U 4J8W ">&nbsp;&nbsp;   45&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A type 1;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P62805">  P62805</a>
+&nbsp;&nbsp;
+<a href="#" title="3AN2 3AFA 3A6N 2CV5 3AV2 3AV1 3AZN 3AZM 3AZL 3AZK 3AZJ 3AZI 3AZH 3AZG 3AZF 3AZE 3AYW ">&nbsp;&nbsp;   17&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P04908">  P04908</a>
+&nbsp;&nbsp;
+<a href="#" title="3AN2 3AFA 3A6N 2CV5 3AV2 3AV1 3AZN 3AZM 3AZL 3AZK 3AZJ 3AZI 3AZH 3AZG 3AZF 3AZE 3AYW ">&nbsp;&nbsp;   17&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A type 1-B/E; AltName: Full=Histone H2A.2; AltName: Full=Histone H2A/a; AltName: Full=Histone H2A/m;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P06899">  P06899</a>
+&nbsp;&nbsp;
+<a href="#" title="3AN2 3AFA 3A6N 3AV2 3AV1 3AZN 3AZM 3AZL 3AZK 3AZJ 3AZI 3AZH 3AZG 3AZF 3AZE 3AYW ">&nbsp;&nbsp;   16&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B type 1-J; AltName: Full=Histone H2B.1; AltName: Full=Histone H2B.r; Short=H2B/r;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P68431">  P68431</a>
+&nbsp;&nbsp;
+<a href="#" title="3AFA 2CV5 3AZN 3AZM 3AZL 3AZK 3AZJ 3AZI 3AZH 3AZG 3AZF 3AZE 3AYW ">&nbsp;&nbsp;   13&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.1; AltName: Full=Histone H3/a; AltName: Full=Histone H3/b; AltName: Full=Histone H3/c; AltName: Full=Histone H3/d; AltName: Full=Histone H3/f; AltName: Full=Histone H3/h; AltName: Full=Histone H3/i; AltName: Full=Histone H3/j; AltName: Full=Histone H3/k; AltName: Full=Histone H3/l;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q6AZJ8">  Q6AZJ8</a>
+&nbsp;&nbsp;
+<a href="#" title="3LZ1 3LZ0 3MVD 3LEL 3MGS 3MGR 3MGQ 3MGP 3KXB ">&nbsp;&nbsp;    9&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P84229">  P84229</a>
+&nbsp;&nbsp;
+<a href="#" title="1EQZ 1TZY 1HQ3 2ARO ">&nbsp;&nbsp;    4&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.2; AltName: Full=Histone H3 class I;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P62801">  P62801</a>
+&nbsp;&nbsp;
+<a href="#" title="1EQZ 1TZY 1HQ3 2ARO ">&nbsp;&nbsp;    4&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02302">  P02302</a>
+&nbsp;&nbsp;
+<a href="#" title="1AOI 1M1A 1M19 1M18 ">&nbsp;&nbsp;    4&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.3C;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02263">  P02263</a>
+&nbsp;&nbsp;
+<a href="#" title="1EQZ 1TZY 1HQ3 2ARO ">&nbsp;&nbsp;    4&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A-IV;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02283">  P02283</a>
+&nbsp;&nbsp;
+<a href="#" title="2PYO 2NQB 4INM ">&nbsp;&nbsp;    3&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P84040">  P84040</a>
+&nbsp;&nbsp;
+<a href="#" title="2PYO 2NQB 4INM ">&nbsp;&nbsp;    3&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02299">  P02299</a>
+&nbsp;&nbsp;
+<a href="#" title="2PYO 2NQB 4INM ">&nbsp;&nbsp;    3&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P84051">  P84051</a>
+&nbsp;&nbsp;
+<a href="#" title="2PYO 2NQB 4INM ">&nbsp;&nbsp;    3&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P06701">  P06701</a>
+&nbsp;&nbsp;
+<a href="#" title="3TU4 4JJN ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Regulatory protein SIR3; AltName: Full=Silent information regulator 3;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q28D68">  Q28D68</a>
+&nbsp;&nbsp;
+<a href="#" title="3C1C 3C1B ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P61830">  P61830</a>
+&nbsp;&nbsp;
+<a href="#" title="1ID3 4JJN ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/O75367">  O75367</a>
+&nbsp;&nbsp;
+<a href="#" title="1U35 2F8N ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Core histone macro-H2A.1; Short=Histone macroH2A1; Short=mH2A1; AltName: Full=Histone H2A.y; Short=H2A/y; AltName: Full=Medulloblastoma antigen MU-MB-50.205;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02294">  P02294</a>
+&nbsp;&nbsp;
+<a href="#" title="1ID3 4JJN ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B.2;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P0C1H5">  P0C1H5</a>
+&nbsp;&nbsp;
+<a href="#" title="1TZY 1HQ3 ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B 7; AltName: Full=H2B VII;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P0C1H3">  P0C1H3</a>
+&nbsp;&nbsp;
+<a href="#" title="1EQZ 2ARO ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B 1/2/3/4/6; AltName: Full=H2B I; AltName: Full=H2B II; AltName: Full=H2B III; AltName: Full=H2B IV; AltName: Full=H2B VI;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P62806">  P62806</a>
+&nbsp;&nbsp;
+<a href="#" title="1F66 1U35 ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q9D2U9">  Q9D2U9</a>
+&nbsp;&nbsp;
+<a href="#" title="1U35 2F8N ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B type 3-A;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P02309">  P02309</a>
+&nbsp;&nbsp;
+<a href="#" title="1ID3 4JJN ">&nbsp;&nbsp;    2&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H4;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q71DI3">  Q71DI3</a>
+&nbsp;&nbsp;
+<a href="#" title="3AV1 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.2; AltName: Full=Histone H3/m; AltName: Full=Histone H3/o;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q16695">  Q16695</a>
+&nbsp;&nbsp;
+<a href="#" title="3A6N ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.1t; Short=H3/t; Short=H3t; AltName: Full=H3/g;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P25171">  P25171</a>
+&nbsp;&nbsp;
+<a href="#" title="3MVD ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Regulator of chromosome condensation; AltName: Full=Chromatin-binding protein Bj1;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P0C0S5">  P0C0S5</a>
+&nbsp;&nbsp;
+<a href="#" title="1F66 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A.Z; Short=H2A/z;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q8CGP6">  Q8CGP6</a>
+&nbsp;&nbsp;
+<a href="#" title="2F8N ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A type 1-H;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P04911">  P04911</a>
+&nbsp;&nbsp;
+<a href="#" title="1ID3 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A.1;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P04912">  P04912</a>
+&nbsp;&nbsp;
+<a href="#" title="4JJN ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2A.2;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P84243">  P84243</a>
+&nbsp;&nbsp;
+<a href="#" title="3AV2 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.3;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/Q66LH7">  Q66LH7</a>
+&nbsp;&nbsp;
+<a href="#" title="4INM ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  SubName: Full=CENP-C;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/O60814">  O60814</a>
+&nbsp;&nbsp;
+<a href="#" title="2CV5 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H2B type 1-K; Short=H2B K; AltName: Full=HIRA-interacting protein 1;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P49450">  P49450</a>
+&nbsp;&nbsp;
+<a href="#" title="3AN2 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3-like centromeric protein A; AltName: Full=Centromere autoantigen A; AltName: Full=Centromere protein A; Short=CENP-A;
+<br />
+### &nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.uniprot.org/uniprot/P68433">  P68433</a>
+&nbsp;&nbsp;
+<a href="#" title="1U35 ">&nbsp;&nbsp;    1&nbsp;&nbsp;</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  RecName: Full=Histone H3.1;
+<br />
+
+</body>
+</html>
